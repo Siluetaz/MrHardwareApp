@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">MrHardwareAPP</string>
+    <string name="TituloMayor"><u>Mr.Hardware</u></string>
+    <string name="registrate"><u>Registrate</u></string>
+    <string name="eslogan">Llega antes que los mineros</string>
+    <string name="mr_hardware">Mr.Hardware</string>
+    <string name="salir"><u>Cerrar sesión</u></string>
+    <string name="actualizar"><u>Actulizar</u></string>
+    <string name="administrar_usuarios">Administrar usuarios</string>
+    <string name="administrar_comentarios">Administrar comentarios</string>
+    <string name="reportes">Reportes</string>
+    <string name="advertenciaMenu">Advertencia</string>
+    <string name="banearMenu">Banear</string>
+    <string name="no_existen_registros">No existen registros actualmente</string>
+    <string name="buscar"><font color='#E57979'>Buscar</font></string>
+    <string name="nombre_del_usuario">Nombre del usuario</string>
+    <string name="descripci_n">Descripción</string>
+    <string name="comentario">Comentario</string>
+    <string name="reportes_en_detalle">Reportes en detalle</string>
+    <string name="perfil"><u>Perfil</u></string>
+    <string name="perfil1">Perfil</string>
+    <string name="inicio">Inicio</string>
+    <string name="producto1">Producto</string>
+    <string name="nombre_real">Nombre real</string>
+    <string name="email">Email</string>
+    <string name="setups">Setups</string>
+    <string name="comentarios">Comentarios</string>
+    <string name="imageuser">imageUser</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="editar">Editar</string>
+    <string name="edita_tu_comentario">Edita tu comentario</string>
+    <string name="teclados">Teclados</string>
+    <string name="procesadores">Procesadores</string>
+    <string name="monitores">Monitores</string>
+    <string name="precio">$%1$s</string>
+    <string name="filtrar_por"><u>Filtrar por</u>:</string>
+    <string name="popularidad"><b>Popularidad</b></string>
+    <string name="precio1"><b>Precio</b></string>
+    <string name="producto"><b>Producto</b></string>
+    <string name="nombreDetalle">%1$s: </string>
+    <string name="detalle"> %1$s\n</string>
+    <string name="detalle1"> %1$s,%2$s\n</string>
+    <string name="sinDetalle">Sin Detalle\n</string>
+    <string name="comentarioo"><font color='#0000FF'>%1$s</font>%2$s%3$s</string>
+    <string name="crear_setup"><u>Crear Setup</u></string>
+    <string name="tiendas"><b>Tiendas</b></string>
+</resources>

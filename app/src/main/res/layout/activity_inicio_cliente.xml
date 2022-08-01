@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".InicioClienteActivity">
+
+    <include layout="@layout/toolbar_perfil" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="6dp"
+        app:cardCornerRadius="9dp"
+        app:cardElevation="4dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imgFiltrar"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="15dp"
+                android:focusable="false"
+                android:src="@drawable/filtrar" />
+
+            <SearchView
+                android:id="@+id/txtbuscarProd"
+                android:layout_width="300dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:focusable="false"
+                android:iconifiedByDefault="false"
+                android:queryHint="@string/buscar" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|center_vertical"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="6dp"
+            android:outlineAmbientShadowColor="@color/colorNaranjo"
+            android:outlineSpotShadowColor="@color/colorNaranjo"
+            app:cardCornerRadius="9dp"
+            app:cardElevation="10dp">
+
+            <TextView
+                android:id="@+id/todas"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="8dp"
+                android:background="@color/colorPrincipal"
+                android:textColor="@color/white"
+                android:paddingVertical="6dp"
+                android:text="Todas" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="6dp"
+            android:outlineAmbientShadowColor="@color/colorNaranjo"
+            android:outlineSpotShadowColor="@color/colorNaranjo"
+            app:cardCornerRadius="9dp"
+            app:cardElevation="10dp">
+
+            <TextView
+                android:id="@+id/spDigital"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="8dp"
+                android:paddingVertical="6dp"
+                android:text="SPdigital" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="6dp"
+            android:outlineAmbientShadowColor="@color/colorNaranjo"
+            android:outlineSpotShadowColor="@color/colorNaranjo"
+            app:cardCornerRadius="9dp"
+            app:cardElevation="10dp">
+
+            <TextView
+                android:id="@+id/pcFactory"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="8dp"
+                android:paddingVertical="6dp"
+                android:text="PcFactory" />
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerProductos"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:listitem="@layout/row_productos" />
+
+        <TextView
+            android:id="@+id/mensajeVacio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="-400dp"
+            android:gravity="center"
+            android:text="@string/no_existen_registros"
+            android:textColor="@color/colorNaranjo"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

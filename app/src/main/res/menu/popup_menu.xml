@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/banear"
+        android:title="@string/banearMenu"/>
+    <item
+        android:id="@+id/advertencia"
+        android:title="@string/advertenciaMenu"/>
+    <item
+        android:id="@+id/detalle"
+        android:title="@string/reportes_en_detalle"
+        android:visible="false"/>
+</menu>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".InicioClienteActivity">
+    <item
+        android:enabled="false"
+        android:title="@string/filtrar_por" />
+    <item
+        android:enabled="false"
+        android:title="@string/producto" />
+
+    <item android:title="Hardware">
+        <menu>
+            <group
+                android:id="@+id/hardware"
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/proce"
+                    android:checked="false"
+                    android:title="@string/procesadores"
+                    android:titleCondensed="1" />
+                <item
+                    android:id="@+id/gpu"
+                    android:checked="false"
+                    android:title="Tarjetas gráficas"
+                    android:titleCondensed="2" />
+                <item
+                    android:id="@+id/motherB"
+                    android:checked="false"
+                    android:title="Placa madre"
+                    android:titleCondensed="3" />
+                <item
+                    android:id="@+id/ram"
+                    android:checked="false"
+                    android:title="RAM"
+                    android:titleCondensed="4" />
+                <item
+                    android:id="@+id/almacenamiento"
+                    android:checked="false"
+                    android:title="Almacenamiento"
+                    android:titleCondensed="5" />
+                <item
+                    android:id="@+id/gabinete"
+                    android:checked="false"
+                    android:title="Gabinete"
+                    android:titleCondensed="6" />
+                <item
+                    android:id="@+id/fuentePoder"
+                    android:checked="false"
+                    android:title="Fuente de poder"
+                    android:titleCondensed="7" />
+                <item
+                    android:id="@+id/refri"
+                    android:checked="false"
+                    android:title="Refrigeración"
+                    android:titleCondensed="8" />
+                <item
+                    android:id="@+id/monitor"
+                    android:checked="false"
+                    android:title="Monitores"
+                    android:titleCondensed="9" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="Perifericos">
+        <menu>
+            <group
+                android:id="@+id/periferico"
+                android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/teclado"
+                    android:checked="false"
+                    android:title="Teclados"
+                    android:titleCondensed="10" />
+                <item
+                    android:id="@+id/mouse"
+                    android:checked="false"
+                    android:title="Mouse"
+                    android:titleCondensed="11" />
+            </group>
+        </menu>
+    </item>
+    <item
+        android:enabled="false"
+        android:title="@string/precio1" />
+    <group
+        android:id="@+id/AscDesc"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/mayor"
+            android:title="Menor precio"
+            android:titleCondensed="order by precio asc" />
+
+        <item
+            android:id="@+id/menor"
+            android:title="Mayor precio"
+            android:titleCondensed="order by precio desc" />
+        <item
+            android:checkable="false"
+            android:enabled="false"
+            android:title="@string/popularidad" />
+        <item
+            android:id="@+id/mayorVistas"
+            android:title="Más visto"
+            android:titleCondensed="order by vistas desc" />
+        <item
+            android:id="@+id/menorVistas"
+            android:title="Menos visto"
+            android:titleCondensed="order by vistas asc" />
+    </group>
+<!--    <item
+        android:title="@string/tiendas">
+        <menu>
+            <group
+                android:id="@+id/tiendas"
+                android:checkableBehavior="single">
+            <item
+                android:id="@+id/todas"
+                android:title="Todas" />
+            <item
+                android:id="@+id/spDigital"
+                android:title="SPdigital" />
+            <item
+                android:id="@+id/pcFactory"
+                android:title="PcFactory" />
+            </group>
+        </menu>
+    </item>-->
+    <item
+        android:id="@+id/limpiar"
+        android:title="Limpiar Filtros" />
+
+
+</menu>
