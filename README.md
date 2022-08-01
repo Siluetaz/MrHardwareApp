@@ -4,6 +4,11 @@ Proyecto Final Android
 Esta es la parte móvil de un proyecto final, en el cual ideamos un sitio donde se mostrarían diferentes productos
 de hardware.
 
+Esta app se conecta a través de una api al proyecto web para obtener los datos de la BD.
+(Código de muestra)
+![image](https://user-images.githubusercontent.com/104037070/182218623-f4dda5cf-7293-42ba-92a2-3b38d1d03f82.png)
+
+
 --
 Sección Usuario
 --
